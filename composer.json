@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "ddr/laravel-quality-tools",
+    "description": "This is my package laravel-quality-tools",
     "keywords": [
-        ":vendor_name",
+        "Daniel Neto",
         "laravel",
-        ":package_slug"
+        "laravel-quality-tools"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/danie1net0/laravel-quality-tools",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Daniel Neto",
+            "email": "danielneto314@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "DDR\\LaravelQualityTools\\": "src/",
+            "DDR\\LaravelQualityTools\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "DDR\\LaravelQualityTools\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "DDR\\LaravelQualityTools\\LaravelQualityToolsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelQualityTools": "DDR\\LaravelQualityTools\\Facades\\LaravelQualityTools"
             }
         }
     },
