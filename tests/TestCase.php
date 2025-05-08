@@ -2,9 +2,9 @@
 
 namespace DDR\LaravelQualityTools\Tests;
 
+use DDR\LaravelQualityTools\LaravelQualityToolsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DDR\LaravelQualityTools\LaravelQualityToolsServiceProvider;
 
 class TestCase extends Orchestra
 {

@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+$PHP_BIN vendor/bin/pint
+$PHP_BIN vendor/bin/phpstan analyse --memory-limit=-1
+$PHP_BIN -d memory_limit=-1 vendor/bin/pest --compact
